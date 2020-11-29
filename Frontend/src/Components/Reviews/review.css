@@ -1,0 +1,66 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.reviewContainer {
+  width: 650px;
+  padding: 10px;
+  margin: auto;
+  margin-top: 60px;
+  box-shadow: 1px 1px 3px gray;
+}
+.reviewerHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 1px 1px 3px gray;
+  padding: 8px;
+  margin-bottom: 5px;
+}
+.reviewerHeader h1 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.reviewItems {
+  box-shadow: 1px 1px 3px gray;
+  margin-bottom: 5px;
+  padding: 6px;
+}
+.reviewItems p {
+  font-size: 14px;
+}
+.pagebuttons {
+  display: inline-block;
+  margin: 0px 2px 0px 2px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+.reviewContainer button {
+  padding: 2px 25px 2px 25px;
+  border: 0.1px solid gray;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modal {
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 150px;
+  padding: 20px;
+  border: none;
+  outline: none;
+  box-shadow: 1px 1px 3px gray;
+}
+.modal button {
+  font-size: 12px;
+  outline: none;
+  border: none;
+  border: 0.1px solid gray;
+  padding: 2px 15px 2px 15px;
+  border-radius: 5px;
+  margin-right: 5px;
+  background-color: honeydew;
+  cursor: pointer;
+}

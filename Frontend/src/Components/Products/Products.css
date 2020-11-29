@@ -1,0 +1,51 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.container {
+  border-radius: 10px;
+  max-width: 700px;
+  margin: auto;
+  margin-top: 50px;
+  padding: 10px;
+  box-shadow: 1px 1px 3px grey;
+}
+.header {
+  padding: 3px;
+  border-bottom: 0.1px solid gray;
+}
+.header h1 {
+  font-size: 23px;
+  font-weight: 500;
+}
+
+.productsContainer {
+  height: 300px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.products {
+  width: 680px;
+}
+.item {
+  box-shadow: 1px 1px 3px grey;
+  margin: 0px 0px 4px 0px;
+  padding: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.item a {
+  text-decoration: none;
+  color: black;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(197, 193, 193);
+  border-radius: 10px;
+}
