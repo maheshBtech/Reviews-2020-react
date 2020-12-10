@@ -6,5 +6,7 @@ again i make change
 and i want a change
 now i am making changes
 okey then i ma done with all the commands of git
+finally i know what is git
+
 
 */
