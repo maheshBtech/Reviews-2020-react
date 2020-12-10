@@ -7,6 +7,6 @@ and i want a change
 now i am making changes
 okey then i ma done with all the commands of git
 finally i know what is git
-
+sry finally i know how work with git commands
 
 */
